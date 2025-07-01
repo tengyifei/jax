@@ -16,7 +16,8 @@
 
 from jax._src.pjit import (
   pjit as pjit,
-  pjit_p as pjit_p,
+  jit_p as jit_p,
+  jit_p as pjit_p,
 )
 from jax._src.sharding_impls import (
   AUTO as AUTO,
